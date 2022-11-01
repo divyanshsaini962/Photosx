@@ -1,0 +1,297 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+                                                   /* navigation-bar */
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    top: 0%;
+}
+.logo{
+    padding: 0px 80px;
+    font-family: sans-serif;
+    font-size: 2.5em;
+}
+.logo span{
+    color: purple;
+}
+.manu{
+    padding: 0px 80px;
+}
+.manu a{
+    text-decoration: none;
+    padding: 0% 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.manu a:first-child{
+    color: red;
+}
+.manu a:hover{
+    color: red;
+}
+.icon{
+   padding: 10px 90px;
+}
+.icon a img{
+    width: 22px;
+    height: auto;
+}
+
+.login-btn{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: white;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+                                                         /* section h-text */
+.h-text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.camera{
+    width: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.h-text h1{
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-size: 3em;
+}
+.search-tool{
+    width: 100%;
+    display: flex;
+    height: 66px;
+    margin-top: 20px;
+}
+.h-text input{
+    width: 60%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+.h-text button{
+    width: 30%;
+    font-size: 20px;
+    background: #e74c3c;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px;
+    margin: 0px 5px;
+}
+.h-text button img{
+       width: 40px;
+       height: auto;
+}
+                                                     /* section-2 filter-gallary */
+.filter-gallary{
+    padding: 100px;
+}
+.portfolio-manu{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.portfolio-manu ul li{
+    list-style: none;
+    margin: 20px 0px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 20px 10px;
+    transition: 0.5s ease;
+    text-align: center;
+}
+.portfolio-manu ul li:hover{
+    color: white;
+    background: #e74c3c;
+    border-radius: 8px;
+}
+.active{
+    color: white;
+    background: #e74c3c;
+    border-radius: 8px;
+}
+.portfolio-item{
+    width: 100%;
+}
+.portfolio-item .item{
+    width: 360px;
+    height: 360px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.portfolio-item .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+                                /* section-3 member */
+.member{
+    width: 100%;
+    font-family: sans-serif;
+    padding: 20px 0px;
+}
+.member-info{
+    text-align: center;
+
+}
+.member-info h1{
+    font-size: 2.5em;
+}
+.member-info h1 span{
+    color: #e74c3c;
+}
+.member-card{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+.founder-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.member-card p{
+    margin: 20px 0px;
+    line-height: 2em;
+}
+.member-card h1{
+    margin: 20px 0px;
+}
+.member-card h1 img:hover{
+    transform: scale(0.5);
+    cursor: pointer;
+}
+
+.m-img{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: 20px 0px;
+    justify-content: center;
+}
+.m-img img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    overflow: hidden;
+}
+.m-img img:hover{
+    transform: scale(1.5);
+}
+                                          /* section-4 footer */
+.footer{
+    width: 100%;
+    background: #262626;
+    padding: 50px 0px;
+}
+.news-latter{
+    padding: 30px 30px;
+    margin: 0px 10px;
+    border: 2px solid rgb(255, 255, 255,0.2);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    color: white;
+}
+.news-latter h2{
+    font-size: 2em;
+    font-family: sans-serif;
+
+}
+.news-latter p{
+    font-size: 20px;
+    margin: 8px 0px;
+
+
+}
+.news-latter >div{
+    flex-basis: 50%;
+}
+.news-latter label{
+    position: relative;
+}
+.news-latter input{
+    padding: 20px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font: 20px;
+}
+.news-latter button{
+    position: absolute;
+    background-color: #e74c3c;
+    padding: 20px;
+    width: 30%;
+    right: 0%;
+    outline: none;
+    border: none;
+    border-radius: 0 8px 8px 0;
+}
+.ntext{
+    text-align: right;
+    margin: 5px;
+}
+.f-contact{
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 66px;
+}
+.f-contact p{
+    line-height: 2em;
+    font-size: 15px;
+    cursor: pointer;
+    color: grey;
+}
+.f-contact p:hover{
+    color: white;
+}
+.f-contact button{
+       background: transparent;
+       border: none;
+       outline: none;
+       cursor: pointer;
+       padding: 10px 5px;
+}
+.f-contact >div{
+      flex-basis: 20%;
+}
